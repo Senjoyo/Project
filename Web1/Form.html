@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="topnav">
+        <a href="Mainpage.html">Home</a>
+        <a href="Jadwal/JadwalPelajaran.html">Jadwal</a>
+        <a href="BioData.html">Biodata</a>
+        <a href="Form.html">Form</a>
+      </div>
+    <div class="container">
+        <form action="action_page.php">
+      
+          <label for="Nama">Nama</label>
+          <input type="text" id="Nama" name="Nama">
+      
+          <label for="Kelas">Kelas</label>
+          <input type="text" id="Kelas" name="Kelas">
+
+          <label for="Tanggal Lahir">Tanggal Lahir</label>
+          <input type="date" name="Tanggal lahir" id="Tanggal Lahir">
+
+          <label for="TTl">Tempat Lahir</label>
+          <input type="text" id="Tempat lahir">
+
+          <label for="Jekel">Jenis Kelamin</label>
+          <select name="Jekel" id="Jekel">
+            <option value="Laki-Laki">Laki-Laki</option>
+            <option value="Perempuan">Perempuan</option>
+          </select>
+      
+          <label for="Alamat">Alamat</label>
+          <textarea id="Alamat" name="Alamat" style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
+</body>
+</html>
